@@ -1,0 +1,5 @@
+local t = getsenv(game:GetService("Workspace").errorIogs["Hi Point CF380."].Glock)
+local v = getupvalues(t.OnEquipped)
+setupvalue(t.OnEquipped,13,math.huge)
+
+table.foreach(v,print)
